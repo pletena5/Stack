@@ -1,5 +1,5 @@
 public class List {
-    private ListNode head;
+    public ListNode head;
 
     public List() {
         head = null;
