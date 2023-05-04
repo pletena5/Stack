@@ -5,5 +5,9 @@ class Main {
         List testList = new List(testValues);
         testList.display();
 
-    }
-}
+        Queue q = new Queue();
+        q.enQueue(5);
+        q.display();
+
+    }// main
+}// class main
