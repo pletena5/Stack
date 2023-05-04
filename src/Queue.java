@@ -5,7 +5,7 @@ public class Queue extends List{
         super();
     }
 
-    private ListNode front(){
+    ListNode front(){
         return getHead();
     }// get head
 

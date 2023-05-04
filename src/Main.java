@@ -9,5 +9,12 @@ class Main {
         q.enQueue(5);
         q.display();
 
+        PriorityQueue queue = new PriorityQueue();
+        queue.enQueue(5 , false);
+        queue.enQueue(2 , true);
+        queue.display();
+        queue.deQueue();
+        queue.display();
+
     }// main
 }// class main
