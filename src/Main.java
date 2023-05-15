@@ -13,5 +13,12 @@ class Main {
         sq.enQueue(8);
         sq.display();
 
+        PriorityQueue queue = new PriorityQueue();
+        queue.enQueue(5 , false);
+        queue.enQueue(2 , true);
+        queue.display();
+        queue.deQueue();
+        queue.display();
+
     }// main
 }// class main
